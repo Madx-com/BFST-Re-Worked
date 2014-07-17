@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+jar {
+	baseName = 'This is the name of the Jar'
+	version = '0.0.1'	
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
