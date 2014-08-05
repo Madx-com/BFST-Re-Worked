@@ -1,4 +1,0 @@
-public OSMNode extends Node{
-
-
-}
