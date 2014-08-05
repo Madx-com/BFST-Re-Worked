@@ -1,0 +1,4 @@
+public KrakNode extends Node{
+
+
+}
